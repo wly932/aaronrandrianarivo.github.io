@@ -1,0 +1,76 @@
+/* Réglages généraux de la page */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #f4f7fb;
+  color: #222;
+}
+
+/* En-tête : bandeau bleu */
+header {
+  background-color: #0b5cab;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Menu */
+nav {
+  background-color: #08407a;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* Le menu change de couleur quand on passe la souris */
+nav a:hover {
+  color: #ffb703;
+}
+
+/* Contenu centré, pas trop large */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Titres de section */
+h2 {
+  color: #0b5cab;
+  border-bottom: 3px solid #ffb703;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+/* Tableau */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #aaa;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #0b5cab;
+  color: white;
+}
+
+/* Pied de page */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #08407a;
+  color: white;
+  margin-top: 40px;
+}
